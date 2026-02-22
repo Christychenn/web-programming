@@ -1,0 +1,10 @@
+{
+  "name": "todo-js",
+  "version": "1.0.0",
+  "description": "Pure frontend todo list app (HTML, CSS, JavaScript)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "dev": "npx serve . -l 3000"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo list</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="fixed-header">
+    <h1>todo list</h1>
+    <div class="input-row">
+      <input type="text" id="new-todo" placeholder="new todo" aria-label="new todo">
+      <button type="button" id="add-btn">add</button>
+    </div>
+    <textarea id="description" placeholder="description" rows="3" aria-label="description"></textarea>
+  </div>
+
+  <div class="todo-list" id="todo-list">
+    <!-- Todo items rendered by JS; default todo 1 & todo 2 in JS -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
